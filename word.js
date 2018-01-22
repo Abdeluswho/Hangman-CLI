@@ -51,7 +51,7 @@ class Word{
 		}
 	};
 
-	wordrender(){
+	wordRender(){
 		let display = '';
 		that.letters.forEach(function (ltr) {
 			// body...

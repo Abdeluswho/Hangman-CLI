@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Abdeluswho/Hangman-CLI#readme",
   "dependencies": {
     "inquirer": "^5.0.1",
+    "is-letter": "^1.1.1",
     "prompt": "^1.0.0"
   }
 }
