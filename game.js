@@ -1,9 +1,6 @@
-let newWord =
- {
-  wordList:['warriors', 'trojans', 'cavaliars', 'patriots', 'giants', 'sharks', 'dodgers', 'bruins', 'yankees', 'earthquakes'],
-  hangman: ["\n\n\n\n\n\n\n-------------", "\n |\n |\n |\n |\n |\n |\n |\n-------------", "____________\n |         |\n |\n |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |\n |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |         |\n |         |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |         |\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        |\n |\n-------------","____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        | |\n |\n-------------"]
-};
-
-
-
-module.exports = newWord;
+exports.wordBank = ["hawks","celtics","nets","hornets","bulls",
+					"cavaliers","mavericks","nuggets","pistons","warriors",
+					"rockets","pacers","clippers","lakers","grizzlies",
+					"heat","bucks","timberwolves","pelicans","knicks",
+					"thunder","magic","sixers","suns","blazers",
+					"kings","spurs","raptors","jazz","wizards"];
