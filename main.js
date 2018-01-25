@@ -33,7 +33,7 @@ let Hangman = {
                 this.guessesRemaining = 8;
             }
 
-            newGame =  () => {
+            function newGame() {
                 let that = this;
                 if(that.guessesRemaining === 8) {
 
